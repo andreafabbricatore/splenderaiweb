@@ -36,7 +36,7 @@ export default function Hero() {
           </a>
         </div>
         <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
-          <span className="font-semibold text-gray-400 uppercase">
+          <span className="font-semibold text-white uppercase">
             powered from
           </span>
           <div className="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
