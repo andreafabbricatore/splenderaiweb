@@ -1,10 +1,7 @@
-import Image from "next/image";
 import Hero from "./components/hero";
-import Footer from "./components/footer";
 import Testimonial from "./components/testimonial";
 import Content from "./components/content";
 import ContentInverted from "./components/content_inverted";
-import NavBar from "./components/navbar";
 import SocialProof from "./components/social_proof";
 
 export default function Home() {
@@ -32,7 +29,6 @@ export default function Home() {
         img2="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
       ></ContentInverted>
       <Testimonial></Testimonial>
-      <Footer></Footer>
     </main>
   );
 }
