@@ -13,9 +13,9 @@ export default function Home() {
       <NavBar></NavBar>
       <Hero></Hero>
       <Content
-        title="No magic trick, just AI"
-        desc1="Companies, increasingly so, are able to achieve higher levels of efficiency and provide more value to their customers by implementing state of the art tech solutions. Whether it is automating a tedious process or predicting the demand of your products, you would be amazed by what can be achieved with well-made cutting-edge AI solutions."
-        desc2="Our network of experts in the field of AI specialize in all aspects of all industries, ready for any challenge you may bring our way."
+        title="What exactly do we do?"
+        desc1="We leverage our network of experts and professionals in the field of AI to develop custom solutions for businesses that are wanting to automate or innovate their processes and products. When you come to us, we will analyze your case in depth and personally take care of the whole development process - from allocating the right people, to polishing the end result and implementing it in your current systems."
+        desc2="If you want to bring AI into your business but don't know how, then we will be your state-of-the-art AI team for the duration of the project and, if needed, even further."
         img1="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
         img2="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
       ></Content>
