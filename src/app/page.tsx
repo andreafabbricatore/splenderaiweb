@@ -1,16 +1,15 @@
 import Image from "next/image";
-import Hero from "./hero";
-import Footer from "./footer";
-import Testimonial from "./testimonial";
-import Content from "./content";
-import ContentInverted from "./content_inverted";
-import NavBar from "./navbar";
-import SocialProof from "./social_proof";
+import Hero from "./components/hero";
+import Footer from "./components/footer";
+import Testimonial from "./components/testimonial";
+import Content from "./components/content";
+import ContentInverted from "./components/content_inverted";
+import NavBar from "./components/navbar";
+import SocialProof from "./components/social_proof";
 
 export default function Home() {
   return (
     <main className="main">
-      <NavBar></NavBar>
       <Hero></Hero>
       <Content
         title="What exactly do we do?"
