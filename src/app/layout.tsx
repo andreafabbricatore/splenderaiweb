@@ -6,8 +6,12 @@ import Navbar from "./components/navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://splenderaiweb.vercel.app"),
   title: "SplenderAI",
   description: "AI solutions to automate your business.",
+  openGraph: {
+    images: "/images/opengraph-image.png",
+  },
 };
 
 export default function RootLayout({
