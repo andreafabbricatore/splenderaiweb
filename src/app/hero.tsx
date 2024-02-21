@@ -62,7 +62,7 @@ export default function Hero() {
               <Image
                 src="/images/oxford.png"
                 alt="oxford"
-                width={150}
+                width={170}
                 height={0}
               />
             </a>
