@@ -10,7 +10,7 @@ import SocialProof from "./social_proof";
 export default function Home() {
   return (
     <main className="main">
-      {/* <NavBar></NavBar> */}
+      <NavBar></NavBar>
       <Hero></Hero>
       <Content
         title="We didn't reinvent the wheel"
