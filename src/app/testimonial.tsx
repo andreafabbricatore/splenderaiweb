@@ -23,9 +23,9 @@ export default function Testimonial() {
           </blockquote>
           <figcaption className="flex items-center justify-center mt-6 space-x-3">
             <div className="flex items-center divide-x-2 divide-gray-700">
-              <div className="pr-3 font-medium text-white">Micheal Gough</div>
+              <div className="pr-3 font-medium text-white">Silvia XYZ</div>
               <div className="pl-3 text-sm font-light text-white">
-                CEO at Google
+                CPO at 4Gift
               </div>
             </div>
           </figcaption>

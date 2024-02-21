@@ -7,14 +7,14 @@ export default function Hero() {
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">
           AI Solutions for Your Business
         </h1>
-        <p className="mb-8 text-lg font-normal lg:text-2xl sm:px-16 xl:px-48 text-gray-400">
+        <p className="mb-8 text-lg font-normal lg:text-2xl sm:px-16 xl:px-48 text-gray-200">
           Leverage a network of industry experts and professionals to take your
           business to the next level with automations and AI.
         </p>
         <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <a
             href="#"
-            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center bg-blue-700 text-white rounded-lg bg-primary-700 hover:bg-gray-700 focus:ring-4 focus:ring-primary-300"
+            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center border border-gray-700 text-white rounded-lg hover:bg-gray-700 focus:ring-4 focus:ring-primary-300"
           >
             Learn more
             <svg
@@ -42,7 +42,10 @@ export default function Hero() {
             powered from
           </span>
           <div className="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
-            <a href="#" className="mr-5 mb-5 lg:mb-0 hover:text-gray-400">
+            <a
+              href="#"
+              className="mx-2 md:mr-5 mb-5 lg:mb-0 hover:text-gray-200"
+            >
               <Image
                 src="/images/bocconi.png"
                 alt="ethzurich"
@@ -50,7 +53,10 @@ export default function Hero() {
                 height={0}
               />
             </a>
-            <a href="#" className="mr-5 mb-5 lg:mb-0 hover:text-gray-400">
+            <a
+              href="#"
+              className="mx-2 md:mr-5 mb-5 lg:mb-0 hover:text-gray-200"
+            >
               <Image
                 src="/images/ethzurich.png"
                 alt="ethzurich"
@@ -58,7 +64,10 @@ export default function Hero() {
                 height={0}
               />
             </a>
-            <a href="#" className="mr-5 mb-5 lg:mb-0 hover:text-gray-400">
+            <a
+              href="#"
+              className="mx-2 md:mr-5 mb-5 lg:mb-0 hover:text-gray-200"
+            >
               <Image
                 src="/images/oxford.png"
                 alt="oxford"

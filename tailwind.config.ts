@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         Main: "#151a22",
+        MainOrange: "#ee8564",
       },
     },
   },

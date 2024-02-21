@@ -20,7 +20,7 @@ export default function Footer() {
               <h2 className="mb-6 text-sm font-semibold uppercase text-white">
                 Resources
               </h2>
-              <ul className="text-gray-400">
+              <ul className="text-gray-200">
                 <li className="mb-4">
                   <a href="https://flowbite.com" className="hover:underline">
                     Flowbite
@@ -40,7 +40,7 @@ export default function Footer() {
               <h2 className="mb-6 text-sm font-semibold uppercase text-white">
                 Follow us
               </h2>
-              <ul className="text-gray-400">
+              <ul className="text-gray-200">
                 <li className="mb-4">
                   <a
                     href="https://github.com/themesberg/flowbite"
@@ -63,7 +63,7 @@ export default function Footer() {
               <h2 className="mb-6 text-sm font-semibold ppercase text-white">
                 Legal
               </h2>
-              <ul className="text-gray-400">
+              <ul className="text-gray-200">
                 <li className="mb-4">
                   <a href="#" className="hover:underline">
                     Privacy Policy
@@ -80,7 +80,7 @@ export default function Footer() {
         </div> */}
         <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm sm:text-center text-gray-400">
+          <span className="text-sm sm:text-center text-gray-200">
             © 2024{" "}
             <a href="https://flowbite.com" className="hover:underline">
               SplenderAI

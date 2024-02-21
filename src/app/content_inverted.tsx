@@ -32,7 +32,7 @@ export default function ContentInverted({
             height={500}
           />
         </div>
-        <div className="font-light  sm:text-lg text-gray-400">
+        <div className="pt-8 md:pt-0 font-light  sm:text-lg text-gray-200">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">
             {title}
           </h2>
