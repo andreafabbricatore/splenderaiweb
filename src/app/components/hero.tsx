@@ -13,10 +13,11 @@ export default function Hero() {
         </p>
         <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <a
-            href="#"
+            href="https://calendly.com/splenderai/30min"
+            target="_blank"
             className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center border border-gray-700 text-white rounded-lg hover:bg-gray-700 focus:ring-4 focus:ring-primary-300"
           >
-            Learn more
+            Book a Call
             <svg
               className="ml-2 -mr-1 w-5 h-5"
               fill="currentColor"

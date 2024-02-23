@@ -90,6 +90,7 @@ export default function Footer() {
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
               href="https://www.linkedin.com/company/splender-ai/"
+              target="_blank"
               className="text-gray-500 hover:text-white"
             >
               <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
