@@ -18,13 +18,8 @@ export default function Home() {
       <SocialProof></SocialProof>
       <ContentInverted
         title="Why Us"
-        desc1="We are strategists, designers and developers. Innovators and problem
-            solvers. Small enough to be simple and quick, but big enough to
-            deliver the scope you want at the pace you need. Small enough to be
-            simple and quick, but big enough to deliver the scope you want at
-            the pace you need."
-        desc2="We are strategists, designers and developers. Innovators and problem
-        solvers. Small enough to be simple and quick."
+        desc1="The quality of a solution, is only as good as the team behind it. If you are looking for an energetic, innovative and committed team of experts to guide you on your AI development processes then look no further. At SplenderAI we have a community of talented and hungry individuals from different backgrounds that can be leveraged in almost any realm of this ground-breaking field."
+        desc2="If you do not know where to start, reach out and trust us to be your dedicated partner in unleashing the full potential of AI for your organization."
         img1="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
         img2="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
       ></ContentInverted>
