@@ -16,19 +16,14 @@ export default function Testimonial() {
           </svg>
           <blockquote>
             <p className="text-2xl font-medium text-white">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
-              hendrerit nunc, id tincidunt nibh. Praesent ultrices pharetra quam
-              a dapibus. Nulla facilisi. Quisque et faucibus arcu, id vestibulum
-              diam. Nullam eu rutrum nisl, in eleifend ante. Donec rhoncus quam
-              eget turpis pulvinar, vitae suscipit neque varius"
+              "When you change the way you look at things, the things you look
+              at change."
             </p>
           </blockquote>
           <figcaption className="flex items-center justify-center mt-6 space-x-3">
             <div className="flex items-center divide-x-2 divide-gray-700">
-              <div className="pr-3 font-medium text-white">ABC XYZ</div>
-              <div className="pl-3 text-sm font-light text-white">
-                CEO at ZZZ
-              </div>
+              <div className="pr-3 font-medium text-white">Wayne Dyer</div>
+              <div className="pl-3 text-sm font-light text-white">Author</div>
             </div>
           </figcaption>
         </figure>

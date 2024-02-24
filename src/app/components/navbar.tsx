@@ -70,6 +70,19 @@ function Navbar() {
             <li>
               <Link
                 onClick={toggleMenu}
+                href="/technologies"
+                className={
+                  currentRoute == "/technologies"
+                    ? "block py-2 px-3 hover:border md:hover:border-0 bg-transparent rounded md:p-0 text-gray-300  hover:border-gray-700 "
+                    : "block py-2 px-3 hover:border md:hover:border-0 bg-transparent rounded md:p-0 text-white md:hover:text-gray-300 hover:border-gray-700"
+                }
+              >
+                Technologies
+              </Link>
+            </li>
+            <li>
+              <Link
+                onClick={toggleMenu}
                 href="/portfolio"
                 className={
                   currentRoute == "/portfolio"
