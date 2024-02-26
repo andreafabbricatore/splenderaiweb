@@ -1,4 +1,4 @@
-import PartnershipHero from "../components/partnershiphero";
+import PartnershipHero from "../components/partnership_hero";
 
 export default function Partnerships() {
   return (
