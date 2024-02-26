@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function TechnologiesHero() {
   return (
     <section className="">
-      <div className="py-16 px-4 mx-auto max-w-screen-xl text-center lg:pt-32 lg:pb-16 lg:px-12">
+      <div className="py-16 px-4 mx-auto max-w-screen-xl text-center lg:pt-32 lg:pb-0 lg:px-12">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">
           Meet Sarah: your AI Sales Agent
         </h1>
