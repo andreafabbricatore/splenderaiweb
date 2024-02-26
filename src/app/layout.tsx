@@ -7,7 +7,7 @@ import Footer from "./components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://splenderaiweb.vercel.app"),
+  metadataBase: new URL("https://splenderai.co"),
   title: "SplenderAI",
   description: "AI solutions to automate your business.",
   openGraph: {
