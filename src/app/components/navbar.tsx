@@ -80,7 +80,7 @@ function Navbar() {
                 Technologies
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 onClick={toggleMenu}
                 href="/portfolio"
@@ -92,7 +92,7 @@ function Navbar() {
               >
                 Portfolio
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 onClick={toggleMenu}
