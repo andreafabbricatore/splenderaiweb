@@ -1,44 +1,22 @@
 import Content from "../components/content";
 import ContentInverted from "../components/content_inverted";
+import TechnologiesHero from "../components/technologies_hero";
 
 export default function Technologies() {
   return (
     <main className="main">
+      <TechnologiesHero></TechnologiesHero>
       <Content
-        title="What exactly do we do?"
-        desc1="We leverage our network of experts and professionals in the field of AI to develop custom solutions for businesses that are wanting to automate or innovate their processes and products. When you come to us, we will analyze your case in depth and personally take care of the whole development process - from allocating the right people, to polishing the end result and implementing it in your current systems."
-        desc2="If you want to bring AI into your business but don't know how, then we will be your state-of-the-art AI team for the duration of the project and, if needed, even further."
+        title="Client Acquisition 2.0"
+        desc1="Stop spending countless hours managing conversations with hundreds or even thousands of prospects, it is distracting you from your core business. With Sarah AI you can use a plug-and-play state-of-the-art AI sales agent which will do all this for you. Give the AI a list of leads and let it go after them like a human would."
+        desc2="Let your sales schedule fill up thoughtlessly and win back time to work on your business and close clients like never before."
         img1="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
         img2="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
       ></Content>
       <ContentInverted
-        title="We didn't reinvent the wheel"
-        desc1="We are strategists, designers and developers. Innovators and problem
-            solvers. Small enough to be simple and quick, but big enough to
-            deliver the scope you want at the pace you need. Small enough to be
-            simple and quick, but big enough to deliver the scope you want at
-            the pace you need."
-        desc2="We are strategists, designers and developers. Innovators and problem
-        solvers. Small enough to be simple and quick."
-        img1="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
-        img2="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
-      ></ContentInverted>
-      <Content
-        title="What exactly do we do?"
-        desc1="We leverage our network of experts and professionals in the field of AI to develop custom solutions for businesses that are wanting to automate or innovate their processes and products. When you come to us, we will analyze your case in depth and personally take care of the whole development process - from allocating the right people, to polishing the end result and implementing it in your current systems."
-        desc2="If you want to bring AI into your business but don't know how, then we will be your state-of-the-art AI team for the duration of the project and, if needed, even further."
-        img1="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
-        img2="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
-      ></Content>
-      <ContentInverted
-        title="We didn't reinvent the wheel"
-        desc1="We are strategists, designers and developers. Innovators and problem
-            solvers. Small enough to be simple and quick, but big enough to
-            deliver the scope you want at the pace you need. Small enough to be
-            simple and quick, but big enough to deliver the scope you want at
-            the pace you need."
-        desc2="We are strategists, designers and developers. Innovators and problem
-        solvers. Small enough to be simple and quick."
+        title="Outreach Anywhere"
+        desc1="We understand the importance of a varied client acquisition process to make sure that all the prospects in your target market are optimally reached. Sarah AI integrates into all the major communication platforms from emails to social networks to messages and so forth."
+        desc2="Letting an AI takeover your sales conversations has never been so easy and effective. Give Sarah access, sit back and enjoy."
         img1="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
         img2="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
       ></ContentInverted>
