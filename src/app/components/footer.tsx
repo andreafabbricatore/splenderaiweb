@@ -82,7 +82,11 @@ export default function Footer() {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm sm:text-center text-gray-200">
             © 2024{" "}
-            <a href="https://flowbite.com" className="hover:underline">
+            <a
+              href="https://splenderai.co"
+              target="_blank"
+              className="hover:underline"
+            >
               SplenderAI
             </a>
             . All Rights Reserved.
