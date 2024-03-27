@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function TechnologiesHero() {
   return (
     <section className="">
-      <div className="pt-16 pb-0 px-4 mx-auto max-w-screen-xl text-center lg:pt-32 lg:pb-0 lg:px-12">
+      <div className="py-64 px-4 mx-auto max-w-screen-xl text-center lg:py-64 lg:px-12">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">
           Meet Sarah: your AI Sales Agent
         </h1>
@@ -32,10 +32,11 @@ export default function TechnologiesHero() {
             </svg>
           </a>
           <a
-            href="mailto:hi@splenderai.co"
+            href="https://sarahai.co"
+            target="_blank"
             className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center rounded-lg border focus:ring-4  text-white border-gray-700 hover:bg-gray-700 focus:ring-gray-800"
           >
-            Get in Contact
+            Check it Out
           </a>
         </div>
       </div>
