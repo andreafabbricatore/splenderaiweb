@@ -4,6 +4,9 @@ const path = require("path");
 // Define your Next.js pages directory
 const pagesDir = path.join(process.cwd(), "");
 
+// Define directories to exclude
+const excludedDirs = ["components"];
+
 // Function to traverse the directory and generate sitemap entries recursively
 const traverseDirectory = async (directory, callback) => {
   const files = await fs.readdir(directory);
@@ -12,7 +15,7 @@ const traverseDirectory = async (directory, callback) => {
     const filePath = path.join(directory, file);
     const isDirectory = (await fs.stat(filePath)).isDirectory();
 
-    if (isDirectory) {
+    if (isDirectory && !excludedDirs.includes(file)) {
       await traverseDirectory(filePath, callback);
     } else {
       await callback(filePath);

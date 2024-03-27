@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>/components/content</loc></url>
-<url><loc>/components/content_inverted</loc></url>
-<url><loc>/components/footer</loc></url>
-<url><loc>/components/hero</loc></url>
-<url><loc>/components/navbar</loc></url>
-<url><loc>/components/partnership_hero</loc></url>
-<url><loc>/components/social_proof</loc></url>
-<url><loc>/components/technologies_hero</loc></url>
-<url><loc>/components/testimonial</loc></url>
+<url><loc>/components</loc></url>
 <url><loc>/favicon.ico</loc></url>
 <url><loc>/generateSitemap.js</loc></url>
 <url><loc>/globals.css</loc></url>
